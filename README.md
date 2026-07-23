@@ -276,6 +276,11 @@
 
 <img src="./assets/divider.svg" width="100%" alt="" />
 
+<!-- ============================ 9 Top Languages ============================ -->
+<h2 align="center">Top Languages</h2>
+<img height="195" src="assets/top-languages.svg" alt="Top languages" />
+
+
 <!-- ============================ 10 · CONNECT ============================ -->
 <h2 align="center">🤝 &nbsp;Connect With Me</h2>
 
@@ -288,6 +293,8 @@
   <a href="https://www.linkedin.com/in/rimsha-nazir-53b5b3302/"><img src="https://img.shields.io/badge/LinkedIn-38BDF8?style=for-the-badge&logo=linkedin&logoColor=0D0B16&labelColor=0D0B16" alt="Connect on LinkedIn" /></a>
   <a href="https://github.com/rimshanazir"><img src="https://img.shields.io/badge/Follow-34D399?style=for-the-badge&logo=github&logoColor=0D0B16&labelColor=0D0B16" alt="Follow on GitHub" /></a>
 </div>
+
+
 
 <img src="./assets/glowing-lines.svg" width="100%" alt="" />
 

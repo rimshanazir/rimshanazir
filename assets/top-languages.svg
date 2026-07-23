@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" role="img" aria-label="Top languages: Python 42.6%, JavaScript 21.4%, Jupyter Notebook 12.8%, HTML 9.7%, TypeScript 6.5%, SQL 4.3%, Shell 2.7%">
+<title>TOP LANGUAGES</title>
+<defs>
+  <linearGradient id="cbg" x1="0" y1="0" x2="0.4" y2="1">
+    <stop offset="0" stop-color="#0C0C12"/><stop offset="1" stop-color="#08080C"/>
+  </linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#E8E6F0" stop-opacity="0.5"/>
+    <stop offset="0.5" stop-color="#8F8AA8" stop-opacity="0.28"/>
+    <stop offset="1" stop-color="#E8E6F0" stop-opacity="0.45"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#7C5CFF" stop-opacity="0.17"/><stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.13"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+
+<style>
+  text{font-family:'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;}
+  .h{font-size:15px;font-weight:700;fill:#F5F5F7;letter-spacing:2.6px;}
+  .handle{font-size:12px;fill:#6E6A85;}
+  .lname{font-size:13.5px;font-weight:500;fill:#EDEDF2;}
+  .lpct{font-size:13px;font-weight:600;fill:#A6A6B3;}
+  .big{font-size:23px;font-weight:700;fill:#F5F5F7;letter-spacing:-0.5px;}
+  .small{font-size:9px;font-weight:600;fill:#6E6A85;letter-spacing:2.2px;}
+
+  .fin{animation:fin .8s ease-out both;}
+  @keyframes fin{from{opacity:0}to{opacity:1}}
+  .row{animation:row .7s cubic-bezier(.2,.75,.25,1) both;}
+  @keyframes row{from{opacity:0}to{opacity:1}}
+  .dotglow{transform-box:fill-box;transform-origin:center;animation:dotglow 3.4s ease-out infinite;}
+  @keyframes dotglow{0%{opacity:.5;transform:scale(1)}60%{opacity:0;transform:scale(2.6)}100%{opacity:0;transform:scale(2.6)}}
+  .blink{animation:blink 2.6s ease-in-out infinite;}
+  @keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+  .breathe{animation:breathe 6s ease-in-out infinite;}
+  @keyframes breathe{0%,100%{opacity:.55}50%{opacity:1}}
+  @keyframes s0{from{stroke-dasharray:0 351.86}to{stroke-dasharray:146.89 351.86}}
+  .s0{animation:s0 1.05s cubic-bezier(.25,.8,.3,1) 0.55s both;}
+  @keyframes s1{from{stroke-dasharray:0 351.86}to{stroke-dasharray:72.30 351.86}}
+  .s1{animation:s1 1.05s cubic-bezier(.25,.8,.3,1) 0.68s both;}
+  @keyframes s2{from{stroke-dasharray:0 351.86}to{stroke-dasharray:42.04 351.86}}
+  .s2{animation:s2 1.05s cubic-bezier(.25,.8,.3,1) 0.81s both;}
+  @keyframes s3{from{stroke-dasharray:0 351.86}to{stroke-dasharray:31.13 351.86}}
+  .s3{animation:s3 1.05s cubic-bezier(.25,.8,.3,1) 0.94s both;}
+  @keyframes s4{from{stroke-dasharray:0 351.86}to{stroke-dasharray:19.87 351.86}}
+  .s4{animation:s4 1.05s cubic-bezier(.25,.8,.3,1) 1.07s both;}
+  @keyframes s5{from{stroke-dasharray:0 351.86}to{stroke-dasharray:12.13 351.86}}
+  .s5{animation:s5 1.05s cubic-bezier(.25,.8,.3,1) 1.20s both;}
+  @keyframes s6{from{stroke-dasharray:0 351.86}to{stroke-dasharray:6.50 351.86}}
+  .s6{animation:s6 1.05s cubic-bezier(.25,.8,.3,1) 1.33s both;}
+</style>
+
+<rect x="6" y="6" width="708" height="288" rx="20" fill="url(#cbg)"/>
+<rect x="6" y="6" width="708" height="288" rx="20" fill="none" stroke="url(#edge)" stroke-width="2"/>
+<rect x="120" y="7" width="480" height="1" fill="url(#sheen)"/>
+<ellipse cx="152" cy="180" rx="118" ry="104" fill="url(#glow)" class="breathe"/>
+
+<g class="fin">
+  <circle cx="36" cy="45" r="4.5" fill="#7C5CFF"/>
+  <circle cx="36" cy="45" r="4.5" fill="#7C5CFF" class="blink"/>
+  <text x="52" y="50" class="h">TOP LANGUAGES</text>
+</g>
+
+<circle cx="152" cy="180" r="56" fill="none" stroke="#17171F" stroke-width="23"/>
+  <circle cx="152" cy="180" r="56" fill="none" stroke="#7C5CFF" stroke-width="23" stroke-linecap="butt" stroke-dasharray="146.89 351.86" class="s0" transform="rotate(-90.00 152 180)"/>
+  <circle cx="152" cy="180" r="56" fill="none" stroke="#A996FF" stroke-width="23" stroke-linecap="butt" stroke-dasharray="72.30 351.86" class="s1" transform="rotate(63.36 152 180)"/>
+  <circle cx="152" cy="180" r="56" fill="none" stroke="#F5A524" stroke-width="23" stroke-linecap="butt" stroke-dasharray="42.04 351.86" class="s2" transform="rotate(140.40 152 180)"/>
+  <circle cx="152" cy="180" r="56" fill="none" stroke="#FB7185" stroke-width="23" stroke-linecap="butt" stroke-dasharray="31.13 351.86" class="s3" transform="rotate(186.48 152 180)"/>
+  <circle cx="152" cy="180" r="56" fill="none" stroke="#22D3EE" stroke-width="23" stroke-linecap="butt" stroke-dasharray="19.87 351.86" class="s4" transform="rotate(221.40 152 180)"/>
+  <circle cx="152" cy="180" r="56" fill="none" stroke="#34D399" stroke-width="23" stroke-linecap="butt" stroke-dasharray="12.13 351.86" class="s5" transform="rotate(244.80 152 180)"/>
+  <circle cx="152" cy="180" r="56" fill="none" stroke="#6E6A85" stroke-width="23" stroke-linecap="butt" stroke-dasharray="6.50 351.86" class="s6" transform="rotate(260.28 152 180)"/>
+<g class="fin" style="animation-delay:1.35s">
+  <text x="152" y="178" class="big" text-anchor="middle">7</text>
+  <text x="152" y="196" class="small" text-anchor="middle">LANGS</text>
+</g>
+
+  <g class="row" style="animation-delay:0.62s">
+    <circle cx="300" cy="102" r="5" fill="#7C5CFF"/>
+    <circle cx="300" cy="102" r="5" fill="#7C5CFF" class="dotglow" style="animation-delay:-0.0s"/>
+    <text x="318" y="106" class="lname">Python</text>
+    <text x="686" y="106" class="lpct" text-anchor="end">42.6%</text>
+  </g>
+  <g class="row" style="animation-delay:0.71s">
+    <circle cx="300" cy="128" r="5" fill="#A996FF"/>
+    <circle cx="300" cy="128" r="5" fill="#A996FF" class="dotglow" style="animation-delay:-0.4s"/>
+    <text x="318" y="132" class="lname">JavaScript</text>
+    <text x="686" y="132" class="lpct" text-anchor="end">21.4%</text>
+  </g>
+  <g class="row" style="animation-delay:0.80s">
+    <circle cx="300" cy="154" r="5" fill="#F5A524"/>
+    <circle cx="300" cy="154" r="5" fill="#F5A524" class="dotglow" style="animation-delay:-0.8s"/>
+    <text x="318" y="158" class="lname">Jupyter Notebook</text>
+    <text x="686" y="158" class="lpct" text-anchor="end">12.8%</text>
+  </g>
+  <g class="row" style="animation-delay:0.89s">
+    <circle cx="300" cy="180" r="5" fill="#FB7185"/>
+    <circle cx="300" cy="180" r="5" fill="#FB7185" class="dotglow" style="animation-delay:-1.2s"/>
+    <text x="318" y="184" class="lname">HTML</text>
+    <text x="686" y="184" class="lpct" text-anchor="end">9.7%</text>
+  </g>
+  <g class="row" style="animation-delay:0.98s">
+    <circle cx="300" cy="206" r="5" fill="#22D3EE"/>
+    <circle cx="300" cy="206" r="5" fill="#22D3EE" class="dotglow" style="animation-delay:-1.6s"/>
+    <text x="318" y="210" class="lname">TypeScript</text>
+    <text x="686" y="210" class="lpct" text-anchor="end">6.5%</text>
+  </g>
+  <g class="row" style="animation-delay:1.07s">
+    <circle cx="300" cy="232" r="5" fill="#34D399"/>
+    <circle cx="300" cy="232" r="5" fill="#34D399" class="dotglow" style="animation-delay:-2.0s"/>
+    <text x="318" y="236" class="lname">SQL</text>
+    <text x="686" y="236" class="lpct" text-anchor="end">4.3%</text>
+  </g>
+  <g class="row" style="animation-delay:1.16s">
+    <circle cx="300" cy="258" r="5" fill="#6E6A85"/>
+    <circle cx="300" cy="258" r="5" fill="#6E6A85" class="dotglow" style="animation-delay:-2.4s"/>
+    <text x="318" y="262" class="lname">Shell</text>
+    <text x="686" y="262" class="lpct" text-anchor="end">2.7%</text>
+  </g>
+</svg>
