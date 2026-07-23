@@ -1,0 +1,227 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Rimsha Nazir — AI Marketing Engineer. AI outreach engine: discover, qualify, convert.">
+<title>Rimsha Nazir — AI Marketing Engineer</title>
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0B0A12"/><stop offset="0.55" stop-color="#0A0910"/><stop offset="1" stop-color="#0C0918"/>
+  </linearGradient>
+  <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#7C5CFF" stop-opacity="0.55"/>
+    <stop offset="0.45" stop-color="#4A3A80" stop-opacity="0.30"/>
+    <stop offset="1" stop-color="#C64BE8" stop-opacity="0.45"/>
+  </linearGradient>
+  <linearGradient id="cardG" x1="0" y1="0" x2="0.35" y2="1">
+    <stop offset="0" stop-color="#171423"/><stop offset="1" stop-color="#100E18"/>
+  </linearGradient>
+  <linearGradient id="cardEdge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#7C5CFF" stop-opacity="0.45"/>
+    <stop offset="0.6" stop-color="#2A2440" stop-opacity="0.9"/>
+    <stop offset="1" stop-color="#C64BE8" stop-opacity="0.35"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.10"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="chipG" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#191527"/><stop offset="1" stop-color="#121019"/>
+  </linearGradient>
+  <linearGradient id="ray" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#A996FF" stop-opacity="0"/>
+    <stop offset="0.65" stop-color="#A996FF" stop-opacity="0.5"/>
+    <stop offset="1" stop-color="#E9E3FF" stop-opacity="0.85"/>
+  </linearGradient>
+
+  <radialGradient id="bloomA" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#7C5CFF" stop-opacity="0.40"/><stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="orbGlow" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#8A63FF" stop-opacity="0.50"/>
+    <stop offset="0.42" stop-color="#7C5CFF" stop-opacity="0.20"/>
+    <stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="coreG" cx="0.40" cy="0.32" r="0.78">
+    <stop offset="0" stop-color="#221A3D"/><stop offset="0.5" stop-color="#120E22"/><stop offset="1" stop-color="#080711"/>
+  </radialGradient>
+  <linearGradient id="rim" x1="0.1" y1="0" x2="0.8" y2="1">
+    <stop offset="0" stop-color="#C9BEFF" stop-opacity="0.75"/>
+    <stop offset="0.5" stop-color="#7C5CFF" stop-opacity="0.22"/>
+    <stop offset="1" stop-color="#C64BE8" stop-opacity="0.5"/>
+  </linearGradient>
+
+  <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+    <path d="M40 0H0V40" fill="none" stroke="#141220" stroke-width="1"/>
+  </pattern>
+  <filter id="soft" x="-160%" y="-160%" width="420%" height="420%"><feGaussianBlur stdDeviation="3"/></filter>
+</defs>
+
+<style>
+  text{font-family:'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;}
+  .mono{font-family:'JetBrains Mono','SF Mono','Fira Code',ui-monospace,'DejaVu Sans Mono',monospace;}
+  .name{font-size:34px;font-weight:700;fill:#F5F5F7;letter-spacing:-0.9px;}
+  .role{font-size:19px;font-weight:600;fill:#8B72FF;letter-spacing:-0.1px;}
+  .serv{font-size:12.5px;font-weight:500;fill:#A6A6B3;}
+  .pill{font-size:10px;font-weight:700;fill:#34D399;letter-spacing:1.5px;}
+  .chip{font-size:10.5px;fill:#CFCADF;letter-spacing:0.4px;}
+  .eyebrow{font-size:7.5px;font-weight:600;fill:#7C7590;letter-spacing:1.7px;}
+  .ctitle{font-size:12px;font-weight:600;fill:#F0EFF5;letter-spacing:-0.2px;}
+  .badge{font-size:7px;font-weight:700;fill:#34D399;letter-spacing:1.1px;}
+  .kicker{font-size:7.5px;fill:#8B84A8;letter-spacing:2.6px;}
+  .engine{font-size:19px;font-weight:700;fill:#F5F5F7;letter-spacing:-0.5px;}
+  .foot{font-size:8px;fill:#46415C;letter-spacing:2.4px;}
+
+  .fin{animation:fin 1s cubic-bezier(.2,.75,.25,1) both;}
+  @keyframes fin{from{opacity:0}to{opacity:1}}
+  .halo{transform-box:fill-box;transform-origin:center;animation:halo 6s ease-in-out infinite;}
+  @keyframes halo{0%,100%{opacity:.8;transform:scale(1)}50%{opacity:1;transform:scale(1.05)}}
+  .ping{transform-box:fill-box;transform-origin:center;animation:ping 5s cubic-bezier(.25,.6,.3,1) infinite;}
+  @keyframes ping{0%{opacity:.45;transform:scale(.72)}75%{opacity:0;transform:scale(1.85)}100%{opacity:0;transform:scale(1.85)}}
+  .blink{animation:blink 2.4s ease-in-out infinite;}
+  @keyframes blink{0%,100%{opacity:1}50%{opacity:.28}}
+  .tw{animation:tw 5s ease-in-out infinite;}
+  @keyframes tw{0%,100%{opacity:.18}50%{opacity:.75}}
+  .float{animation:float 7s ease-in-out infinite;}
+  @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+  .dashslow{stroke-dasharray:1 7;animation:dashslow 14s linear infinite;}
+  @keyframes dashslow{to{stroke-dashoffset:-64}}
+  .dashmed{stroke-dasharray:2 10;animation:dashmed 18s linear infinite;}
+  @keyframes dashmed{to{stroke-dashoffset:96}}
+  .rayp{animation:rayp 7s ease-in-out infinite;}
+  @keyframes rayp{0%,100%{opacity:.30}50%{opacity:.85}}
+  .drift{animation:drift 22s ease-in-out infinite alternate;}
+  @keyframes drift{from{transform:translate(-22px,0)}to{transform:translate(22px,-8px)}}
+</style>
+
+<!-- ── backdrop ── -->
+<rect width="1200" height="420" rx="20" fill="url(#bg)"/>
+<rect width="1200" height="420" rx="20" fill="url(#grid)" opacity="0.5"/>
+<g class="drift"><ellipse cx="760" cy="190" rx="520" ry="300" fill="url(#bloomA)"/></g>
+<ellipse cx="940" cy="208" rx="300" ry="230" fill="url(#orbGlow)"/>
+
+<g fill="#7C5CFF">
+  <circle cx="1146" cy="120" r="1.6" class="tw"/>
+  <circle cx="706" cy="330" r="1.4" class="tw" style="animation-delay:-3.2s"/>
+  <circle cx="1120" cy="272" r="1.5" class="tw" style="animation-delay:-1.7s"/>
+  <circle cx="880" cy="386" r="1.2" class="tw" style="animation-delay:-4.1s"/>
+  <circle cx="1010" cy="60" r="1.3" class="tw" style="animation-delay:-2.5s"/>
+</g>
+<circle cx="762" cy="176" r="2" fill="#22D3EE" opacity="0.55" class="tw" style="animation-delay:-1.2s"/>
+
+<!-- ══════════ ORBIT ══════════ -->
+<g transform="translate(940,208)">
+  <g class="fin" style="animation-delay:.2s">
+
+    <g class="rayp">
+      <rect x="-150" y="-0.8" width="118" height="1.6" rx="0.8" fill="url(#ray)" transform="rotate(28 0 0)"/>
+      <rect x="-150" y="-0.7" width="126" height="1.4" rx="0.7" fill="url(#ray)" transform="rotate(-152 0 0)"/>
+    </g>
+    <g class="rayp" style="animation-delay:-3.5s">
+      <rect x="-146" y="-0.6" width="104" height="1.2" rx="0.6" fill="url(#ray)" transform="rotate(-108 0 0)"/>
+    </g>
+
+    <circle r="72"  fill="none" stroke="#2E2748" stroke-width="1" class="dashslow"/>
+    <circle r="98"  fill="none" stroke="#251F3A" stroke-width="1" opacity="0.9"/>
+    <circle r="126" fill="none" stroke="#241E38" stroke-width="1" class="dashmed"/>
+    <circle r="152" fill="none" stroke="#1F1A30" stroke-width="1" class="dashslow" style="animation-delay:-7s"/>
+
+    <g>
+      <circle cx="122" cy="-96" r="2.2" fill="#7C5CFF" opacity="0.7" class="tw" style="animation-delay:-0.6s"/>
+      <circle cx="-140" cy="58" r="3" fill="none" stroke="#22D3EE" stroke-width="1.4" opacity="0.65"/>
+      <circle cx="146" cy="52" r="2.6" fill="none" stroke="#7C5CFF" stroke-width="1.3" opacity="0.7"/>
+      <circle cx="-58" cy="140" r="1.8" fill="#A996FF" opacity="0.55" class="tw" style="animation-delay:-2.8s"/>
+    </g>
+
+    <g><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="19s" repeatCount="indefinite"/>
+      <circle cx="72" cy="0" r="7" fill="#7C5CFF" opacity="0.30" filter="url(#soft)"/>
+      <circle cx="72" cy="0" r="4" fill="#0D0B14" stroke="#A996FF" stroke-width="1.6"/>
+    </g>
+    <g><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="26s" repeatCount="indefinite"/>
+      <circle cx="98" cy="0" r="7" fill="#34D399" opacity="0.28" filter="url(#soft)"/>
+      <circle cx="98" cy="0" r="4" fill="#0B1A16" stroke="#34D399" stroke-width="1.6"/>
+    </g>
+    <g><animateTransform attributeName="transform" type="rotate" from="120" to="480" dur="33s" repeatCount="indefinite"/>
+      <circle cx="126" cy="0" r="6" fill="#7C5CFF" opacity="0.26" filter="url(#soft)"/>
+      <circle cx="126" cy="0" r="3.4" fill="#0D0B14" stroke="#7C5CFF" stroke-width="1.5"/>
+    </g>
+    <g><animateTransform attributeName="transform" type="rotate" from="210" to="570" dur="44s" repeatCount="indefinite"/>
+      <circle cx="152" cy="0" r="2.6" fill="#C9BEFF" opacity="0.8"/>
+    </g>
+
+    <circle r="48" fill="none" stroke="#7C5CFF" stroke-width="1.3" class="ping"/>
+    <circle r="48" fill="none" stroke="#7C5CFF" stroke-width="1.1" class="ping" style="animation-delay:-2.5s"/>
+
+    <g class="halo">
+      <circle r="74" fill="url(#orbGlow)"/>
+      <circle r="48" fill="url(#coreG)"/>
+      <circle r="48" fill="none" stroke="url(#rim)" stroke-width="1.5"/>
+      <circle r="48" fill="none" stroke="#A996FF" stroke-width="0.9" opacity="0.30" filter="url(#soft)"/>
+    </g>
+    <text x="0" y="-8" class="mono kicker" text-anchor="middle">AI OUTREACH</text>
+    <text x="0" y="17" class="engine" text-anchor="middle">Engine</text>
+  </g>
+</g>
+
+<!-- ── orbit labels ── -->
+<g transform="translate(958,82)"><g class="float fin" style="animation-delay:.5s">
+  <rect x="-44" y="-12" width="88" height="24" rx="12" fill="url(#chipG)" stroke="#2C2542"/>
+  <circle cx="-30" cy="0" r="3" fill="#7C5CFF"/>
+  <text x="-20" y="4" class="mono chip">Discover</text>
+</g></g>
+
+<g transform="translate(1078,190)"><g class="float fin" style="animation-delay:.62s">
+  <rect x="-41" y="-12" width="82" height="24" rx="12" fill="url(#chipG)" stroke="#2C2542"/>
+  <circle cx="-27" cy="0" r="3" fill="#7C5CFF"/>
+  <text x="-17" y="4" class="mono chip">Qualify</text>
+</g></g>
+
+<g transform="translate(812,296)"><g class="float fin" style="animation-delay:.74s">
+  <rect x="-42" y="-12" width="84" height="24" rx="12" fill="url(#chipG)" stroke="#2C2542"/>
+  <circle cx="-28" cy="0" r="3" fill="#34D399"/>
+  <text x="-18" y="4" class="mono chip">Convert</text>
+</g></g>
+
+<!-- ── notification card · new signal ── -->
+<g transform="translate(712,75)"><g class="float fin" style="animation-delay:.86s">
+  <rect x="0" y="0" width="176" height="46" rx="13" fill="url(#cardG)" stroke="#2A2440"/>
+  <rect x="34" y="0.5" width="108" height="1" fill="url(#sheen)"/>
+  <rect x="10" y="10" width="26" height="26" rx="8" fill="#1B1533" stroke="#3A2E6B"/>
+  <g stroke="#A996FF" stroke-width="1.5" stroke-linecap="round" fill="none">
+    <path d="M18,28 L28,18"/><path d="M21,18 H28 V25"/>
+  </g>
+  <text x="44" y="21" class="mono eyebrow">NEW SIGNAL</text>
+  <text x="44" y="35" class="ctitle">Lead qualified</text>
+  <rect x="134" y="16" width="32" height="14" rx="7" fill="#0E2620" stroke="#215043"/>
+  <text x="150" y="26" class="mono badge" text-anchor="middle">LIVE</text>
+  <rect x="134" y="16" width="32" height="14" rx="7" fill="none" stroke="#34D399" opacity="0.5" class="blink"/>
+</g></g>
+
+<!-- ── notification card · sequence ── -->
+<g transform="translate(964,301)"><g class="float fin" style="animation-delay:.98s">
+  <rect x="0" y="0" width="176" height="46" rx="13" fill="url(#cardG)" stroke="#2A2440"/>
+  <rect x="34" y="0.5" width="108" height="1" fill="url(#sheen)"/>
+  <rect x="10" y="10" width="26" height="26" rx="8" fill="#1B1533" stroke="#3A2E6B"/>
+  <path d="M23,15 L25.4,20.6 L31,23 L25.4,25.4 L23,31 L20.6,25.4 L15,23 L20.6,20.6 Z" fill="#A996FF"/>
+  <text x="44" y="21" class="mono eyebrow">SEQUENCE</text>
+  <text x="44" y="35" class="ctitle">Follow-up sent</text>
+  <circle cx="152" cy="23" r="10" fill="#0E2620" stroke="#215043"/>
+  <path d="M147,23 l3.4,3.4 L157,20" fill="none" stroke="#34D399" stroke-width="1.7" stroke-linecap="round"/>
+</g></g>
+
+<text x="940" y="382" class="mono foot" text-anchor="middle">ONE CONNECTED SYSTEM</text>
+
+<!-- ── left card ── -->
+<g class="fin">
+  <rect x="56" y="100" width="620" height="200" rx="20" fill="url(#cardG)"/>
+  <rect x="56" y="100" width="620" height="200" rx="20" fill="none" stroke="url(#cardEdge)" stroke-width="1.2"/>
+  <rect x="140" y="100.5" width="452" height="1" fill="url(#sheen)"/>
+  <g>
+    <rect x="80" y="122" width="182" height="26" rx="13" fill="#0E2620" stroke="#215043"/>
+    <circle cx="96" cy="135" r="3.4" fill="#34D399"/>
+    <circle cx="96" cy="135" r="3.4" fill="#34D399" class="blink"/>
+    <text x="108" y="139" class="pill">AVAILABLE FOR WORK</text>
+  </g>
+  <text x="80" y="196" class="name">Hi, I'm Rimsha Nazir</text>
+  <text x="80" y="230" class="role">AI Marketing Engineer</text>
+  <text x="80" y="262" class="serv">Building AI Automations &#183; Lead Generation &#183; Email Marketing</text>
+</g>
+
+<rect x="0.75" y="0.75" width="1198.5" height="418.5" rx="20" fill="none" stroke="url(#frame)" stroke-width="1.5"/>
+</svg>
