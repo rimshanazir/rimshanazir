@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="1200" height="180" role="img" aria-label="Animated perspective digital grid with a sweeping light.">
+  <title>Digital Grid</title>
+  <defs>
+    <linearGradient id="dgBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0D0B16"/><stop offset="0.6" stop-color="#0F0D18"/><stop offset="1" stop-color="#0C2D43"/>
+    </linearGradient>
+    <linearGradient id="dgFade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0D0B16" stop-opacity="0"/><stop offset="1" stop-color="#0D0B16"/>
+    </linearGradient>
+    <pattern id="dgCells" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M60 0H0V60" fill="none" stroke="#8B5CF6" stroke-opacity="0.14" stroke-width="1"/>
+    </pattern>
+    <linearGradient id="dgSweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#8B5CF6" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="dgClip"><rect width="1200" height="180" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#dgClip)">
+    <rect width="1200" height="180" fill="url(#dgBg)"/>
+    <rect width="1200" height="180" fill="url(#dgCells)"/>
+    <!-- horizontal sweeping light band -->
+    <rect x="-300" y="0" width="300" height="180" fill="url(#dgSweep)">
+      <animate attributeName="x" values="-300;1200" dur="6s" repeatCount="indefinite"/>
+    </rect>
+    <!-- pulsing intersection dots -->
+    <g fill="#8B5CF6">
+      <circle cx="120" cy="60" r="2" fill="#34D399"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="360" cy="120" r="2" fill="#8B5CF6"><animate attributeName="opacity" values="0.2;1;0.2" dur="4s" repeatCount="indefinite"/></circle>
+      <circle cx="600" cy="60" r="2" fill="#8B5CF6"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite"/></circle>
+      <circle cx="840" cy="120" r="2" fill="#FACC15"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.5s" repeatCount="indefinite"/></circle>
+      <circle cx="1080" cy="60" r="2" fill="#38BDF8"><animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/></circle>
+    </g>
+    <rect width="1200" height="180" fill="url(#dgFade)" opacity="0.5"/>
+  </g>
+</svg>

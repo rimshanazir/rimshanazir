@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120" role="img" aria-label="Field of floating glowing particles.">
+  <title>Floating Particles</title>
+  <defs>
+    <filter id="pGlow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <g filter="url(#pGlow)">
+    <circle cx="60"  cy="60" r="2.5" fill="#8B5CF6"><animate attributeName="cy" values="60;30;60" dur="6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;1;0.3" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="160" cy="80" r="2"   fill="#8B5CF6"><animate attributeName="cy" values="80;50;80" dur="7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;1;0.4" dur="7s" repeatCount="indefinite"/></circle>
+    <circle cx="280" cy="40" r="2.5" fill="#38BDF8"><animate attributeName="cy" values="40;70;40" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.9;0.3" dur="8s" repeatCount="indefinite"/></circle>
+    <circle cx="400" cy="70" r="1.8" fill="#8B5CF6"><animate attributeName="cy" values="70;40;70" dur="6.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;1;0.4" dur="6.5s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="50" r="2.4" fill="#34D399"><animate attributeName="cy" values="50;80;50" dur="9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.9;0.3" dur="9s" repeatCount="indefinite"/></circle>
+    <circle cx="640" cy="85" r="2"   fill="#8B5CF6"><animate attributeName="cy" values="85;55;85" dur="7.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;1;0.4" dur="7.5s" repeatCount="indefinite"/></circle>
+    <circle cx="760" cy="45" r="2.6" fill="#F97316"><animate attributeName="cy" values="45;75;45" dur="8.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.9;0.3" dur="8.5s" repeatCount="indefinite"/></circle>
+    <circle cx="880" cy="65" r="1.8" fill="#8B5CF6"><animate attributeName="cy" values="65;35;65" dur="6.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;1;0.4" dur="6.8s" repeatCount="indefinite"/></circle>
+    <circle cx="1000" cy="55" r="2.4" fill="#8B5CF6"><animate attributeName="cy" values="55;85;55" dur="9.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.3;0.9;0.3" dur="9.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1120" cy="75" r="2"   fill="#8B5CF6"><animate attributeName="cy" values="75;45;75" dur="7.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.4;1;0.4" dur="7.2s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>

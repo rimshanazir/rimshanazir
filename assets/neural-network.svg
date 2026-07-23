@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 320" width="600" height="320" role="img" aria-label="Animated neural network with input, hidden and output layers and firing connections.">
+  <title>Neural Network</title>
+  <defs>
+    <radialGradient id="nnNode" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8B5CF6"/><stop offset="1" stop-color="#0C2D43"/>
+    </radialGradient>
+    <filter id="nnGlow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="600" height="320" fill="none"/>
+
+  <!-- edges: input(x=90) -> hidden(x=300) -> output(x=510) -->
+  <g stroke-width="1" fill="none" opacity="0.5">
+    <!-- input y: 70,160,250 ; hidden y: 50,130,210,290 ; output y: 110,210 -->
+    <g stroke="#8B5CF6">
+      <path d="M90 70 L300 50"/><path d="M90 70 L300 130"/><path d="M90 70 L300 210"/><path d="M90 70 L300 290"/>
+      <path d="M90 160 L300 50"/><path d="M90 160 L300 130"/><path d="M90 160 L300 210"/><path d="M90 160 L300 290"/>
+      <path d="M90 250 L300 50"/><path d="M90 250 L300 130"/><path d="M90 250 L300 210"/><path d="M90 250 L300 290"/>
+    </g>
+    <g stroke="#0C2D43">
+      <path d="M300 50 L510 110"/><path d="M300 50 L510 210"/>
+      <path d="M300 130 L510 110"/><path d="M300 130 L510 210"/>
+      <path d="M300 210 L510 110"/><path d="M300 210 L510 210"/>
+      <path d="M300 290 L510 110"/><path d="M300 290 L510 210"/>
+    </g>
+  </g>
+
+  <!-- firing pulses -->
+  <g fill="#F8FAFC" filter="url(#nnGlow)">
+    <circle r="3"><animateMotion path="M90 160 L300 130" dur="1.6s" repeatCount="indefinite"/></circle>
+    <circle r="3" fill="#8B5CF6"><animateMotion path="M90 70 L300 210" dur="2s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <circle r="3" fill="#F97316"><animateMotion path="M300 130 L510 110" dur="1.4s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <circle r="3" fill="#34D399"><animateMotion path="M300 210 L510 210" dur="1.8s" begin="0.9s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- nodes -->
+  <g filter="url(#nnGlow)">
+    <!-- input (technology / data in → blue) -->
+    <g fill="#120F1F" stroke="#38BDF8" stroke-width="2">
+      <circle cx="90" cy="70" r="12"><animate attributeName="r" values="12;14;12" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="90" cy="160" r="12"><animate attributeName="r" values="12;14;12" dur="3s" begin="0.5s" repeatCount="indefinite"/></circle>
+      <circle cx="90" cy="250" r="12"><animate attributeName="r" values="12;14;12" dur="3s" begin="1s" repeatCount="indefinite"/></circle>
+    </g>
+    <!-- hidden -->
+    <g fill="url(#nnNode)" stroke="#8B5CF6" stroke-width="2">
+      <circle cx="300" cy="50" r="13"/><circle cx="300" cy="130" r="13"><animate attributeName="r" values="13;16;13" dur="2.5s" repeatCount="indefinite"/></circle>
+      <circle cx="300" cy="210" r="13"><animate attributeName="r" values="13;16;13" dur="2.5s" begin="0.8s" repeatCount="indefinite"/></circle><circle cx="300" cy="290" r="13"/>
+    </g>
+    <!-- output (automation result → green) -->
+    <g fill="#120F1F" stroke="#34D399" stroke-width="2">
+      <circle cx="510" cy="110" r="13"><animate attributeName="r" values="13;15;13" dur="2.8s" repeatCount="indefinite"/></circle>
+      <circle cx="510" cy="210" r="13"><animate attributeName="r" values="13;15;13" dur="2.8s" begin="0.7s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+
+  <!-- labels -->
+  <g font-family="'Segoe UI',Arial,sans-serif" font-size="11" font-weight="600" fill="#9CA3AF" text-anchor="middle">
+    <text x="90" y="300">Input</text>
+    <text x="300" y="315">Hidden</text>
+    <text x="510" y="255">Output</text>
+  </g>
+</svg>

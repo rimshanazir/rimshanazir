@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" width="420" height="420" role="img" aria-label="Rotating technology orbit with core AI node and orbiting skill nodes.">
+  <title>Tech Orbit</title>
+  <defs>
+    <radialGradient id="orbCore" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8B5CF6"/><stop offset="0.7" stop-color="#0C2D43"/><stop offset="1" stop-color="#0D0B16"/>
+    </radialGradient>
+    <radialGradient id="orbHalo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8B5CF6" stop-opacity="0.6"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="orbGlow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <rect width="420" height="420" fill="none"/>
+
+  <!-- orbit rings -->
+  <g fill="none" stroke-width="1" opacity="0.35">
+    <ellipse cx="210" cy="210" rx="120" ry="120" stroke="#8B5CF6"/>
+    <ellipse cx="210" cy="210" rx="165" ry="70" stroke="#8B5CF6" transform="rotate(30 210 210)"/>
+    <ellipse cx="210" cy="210" rx="165" ry="70" stroke="#0C2D43" transform="rotate(-30 210 210)"/>
+  </g>
+
+  <!-- core halo -->
+  <circle cx="210" cy="210" r="70" fill="url(#orbHalo)">
+    <animate attributeName="r" values="60;78;60" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <!-- core -->
+  <circle cx="210" cy="210" r="34" fill="url(#orbCore)" filter="url(#orbGlow)"/>
+  <text x="210" y="216" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="20" font-weight="800" fill="#F8FAFC">AI</text>
+
+  <!-- orbit group 1 (circular ring) -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 210 210" to="360 210 210" dur="18s" repeatCount="indefinite"/>
+    <g transform="translate(330 210)"><circle r="16" fill="#120F1F" stroke="#8B5CF6" stroke-width="2"/><text y="5" text-anchor="middle" font-family="Arial" font-size="11" font-weight="700" fill="#8B5CF6">GPT</text></g>
+    <g transform="translate(90 210)"><circle r="16" fill="#120F1F" stroke="#34D399" stroke-width="2"/><text y="5" text-anchor="middle" font-family="Arial" font-size="10" font-weight="700" fill="#34D399">n8n</text></g>
+  </g>
+
+  <!-- orbit group 2 (tilted ring +30) -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="360 210 210" to="0 210 210" dur="22s" repeatCount="indefinite"/>
+    <g transform="rotate(30 210 210)">
+      <g transform="translate(375 210)"><circle r="15" fill="#120F1F" stroke="#38BDF8" stroke-width="2"/><text y="4" text-anchor="middle" font-family="Arial" font-size="9" font-weight="700" fill="#38BDF8">API</text></g>
+      <g transform="translate(45 210)"><circle r="15" fill="#120F1F" stroke="#FACC15" stroke-width="2"/><text y="4" text-anchor="middle" font-family="Arial" font-size="9" font-weight="700" fill="#FACC15">SEO</text></g>
+    </g>
+  </g>
+
+  <!-- orbit group 3 (tilted ring -30) -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0 210 210" to="360 210 210" dur="26s" repeatCount="indefinite"/>
+    <g transform="rotate(-30 210 210)">
+      <g transform="translate(375 210)"><circle r="15" fill="#120F1F" stroke="#38BDF8" stroke-width="2"/><text y="4" text-anchor="middle" font-family="Arial" font-size="8.5" font-weight="700" fill="#38BDF8">CRM</text></g>
+      <g transform="translate(45 210)"><circle r="15" fill="#120F1F" stroke="#34D399" stroke-width="2"/><text y="4" text-anchor="middle" font-family="Arial" font-size="8.5" font-weight="700" fill="#34D399">Zap</text></g>
+    </g>
+  </g>
+</svg>
