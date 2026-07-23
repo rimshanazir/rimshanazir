@@ -20,7 +20,7 @@
 </div>
 
 <br/>
-
+  <br/><br/>
 <!-- Typing headline (themed to palette) -->
 <div align="center">
 
@@ -30,16 +30,8 @@
 
   <br/><br/>
 
-  <!-- Quick social badges -->
-  <a href="mailto:rimshanazir693@gmail.com"><img src="https://img.shields.io/badge/Email-120F1F?style=for-the-badge&logo=gmail&logoColor=8B5CF6&labelColor=0D0B16" alt="Email Rimsha Nazir" /></a>
-  <a href="https://www.linkedin.com/"><img src="https://img.shields.io/badge/LinkedIn-120F1F?style=for-the-badge&logo=linkedin&logoColor=38BDF8&labelColor=0D0B16" alt="LinkedIn profile" /></a>
-  <a href="https://github.com/rimshanazir"><img src="https://img.shields.io/badge/GitHub-120F1F?style=for-the-badge&logo=github&logoColor=F8FAFC&labelColor=0D0B16" alt="GitHub profile" /></a>
-  <img src="https://komarev.com/ghpvc/?username=rimshanazir&style=for-the-badge&color=8B5CF6&label=PROFILE+VIEWS" alt="Profile view counter" />
-
 </div>
 
-<!-- Animated section divider -->
-<img src="./assets/divider.svg" width="100%" alt="" />
 
 <!-- ============================ 2 · ABOUT ME ============================ -->
 <h2 align="center">🧠 &nbsp;About Me</h2>
