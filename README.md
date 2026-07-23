@@ -15,7 +15,7 @@
 <!-- ============================ 1 · HERO ============================ -->
 <div align="center">
 
-  <img src="./assets/hero-banner.svg" width="100%" alt="Hi, I'm Rimsha Nazir — AI Marketing Engineer. Building AI Automations, Lead Generation and Email Marketing." />
+  <img src="./assets/hero-banner-orbit_1.svg" width="100%" alt="Hi, I'm Rimsha Nazir — AI Marketing Engineer. Building AI Automations, Lead Generation and Email Marketing." />
 
 </div>
 
