@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 280" width="720" height="280" role="img" aria-label="GitHub stats for rimshanazir: 1 repository, 1 follower, 0 following, 1 total star, 11 contributions in the last 12 months.">
+<title>GitHub stats — rimshanazir</title>
+<defs>
+  <linearGradient id="cbg" x1="0" y1="0" x2="0.4" y2="1">
+    <stop offset="0" stop-color="#0C0C12"/><stop offset="1" stop-color="#08080C"/>
+  </linearGradient>
+  <linearGradient id="tile" x1="0" y1="0" x2="0.3" y2="1">
+    <stop offset="0" stop-color="#131320"/><stop offset="1" stop-color="#0D0D14"/>
+  </linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#E8E6F0" stop-opacity="0.5"/>
+    <stop offset="0.5" stop-color="#8F8AA8" stop-opacity="0.28"/>
+    <stop offset="1" stop-color="#E8E6F0" stop-opacity="0.45"/>
+  </linearGradient>
+  <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset="0.5" stop-color="#fff" stop-opacity="0.13"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="swipe" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#7C5CFF" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#A996FF" stop-opacity="0.16"/>
+    <stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0" stop-color="#7C5CFF" stop-opacity="0.13"/><stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<style>
+  text{font-family:'Inter','SF Pro Display','Segoe UI',system-ui,-apple-system,'Helvetica Neue',Arial,sans-serif;}
+  .h{font-size:15px;font-weight:700;fill:#F5F5F7;letter-spacing:2.6px;}
+  .handle{font-size:12px;fill:#6E6A85;}
+  .val{font-size:30px;font-weight:700;fill:#C9BEFF;letter-spacing:-1px;}
+  .lbl{font-size:9.5px;font-weight:600;fill:#7C7590;letter-spacing:1.8px;}
+  .big{font-size:28px;font-weight:700;fill:#C9BEFF;letter-spacing:-0.9px;}
+  .meta{font-size:9.5px;font-weight:600;fill:#5A566E;letter-spacing:1.6px;}
+
+  .fin{animation:fin .8s ease-out both;}
+  @keyframes fin{from{opacity:0}to{opacity:1}}
+  .tile{animation:tile .75s cubic-bezier(.2,.75,.25,1) both;}
+  @keyframes tile{from{opacity:0;transform:translateY(9px)}to{opacity:1;transform:translateY(0)}}
+  .blink{animation:blink 2.6s ease-in-out infinite;}
+  @keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+  .dot{transform-box:fill-box;transform-origin:center;animation:dot 1.8s ease-in-out infinite;}
+  @keyframes dot{0%,100%{opacity:.28;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)}}
+  .swipe{animation:swipe 9s cubic-bezier(.5,0,.5,1) infinite;}
+  @keyframes swipe{0%{transform:translateX(-320px);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(720px);opacity:0}}
+  .breathe{animation:breathe 7s ease-in-out infinite;}
+  @keyframes breathe{0%,100%{opacity:.6}50%{opacity:1}}
+  @media (prefers-reduced-motion:reduce){
+    .fin,.tile,.blink,.dot,.swipe,.breathe{animation:none;}
+  }
+</style>
+
+<rect x="6" y="6" width="708" height="268" rx="20" fill="url(#cbg)"/>
+<ellipse cx="360" cy="150" rx="330" ry="150" fill="url(#glow)" class="breathe"/>
+<g><rect x="0" y="6" width="300" height="268" fill="url(#swipe)" class="swipe"/></g>
+<rect x="6" y="6" width="708" height="268" rx="20" fill="none" stroke="url(#edge)" stroke-width="2"/>
+<rect x="120" y="7" width="480" height="1" fill="url(#sheen)"/>
+
+<g class="fin">
+  <circle cx="36" cy="45" r="4.5" fill="#7C5CFF"/>
+  <circle cx="36" cy="45" r="4.5" fill="#7C5CFF" class="blink"/>
+  <text x="52" y="50" class="h">GITHUB STATS</text>
+  <text x="688" y="50" class="handle" text-anchor="end">@rimshanazir</text>
+</g>
+
+  <g class="tile" style="animation-delay:0.25s">
+    <rect x="32" y="86" width="152" height="86" rx="14" fill="url(#tile)" stroke="#23232E"/>
+    <rect x="50" y="86.5" width="116" height="1" fill="url(#sheen)"/>
+    <text x="52" y="130" class="val">1</text>
+    <text x="52" y="154" class="lbl">REPOSITORIES</text>
+  </g>
+  <g class="tile" style="animation-delay:0.34s">
+    <rect x="200" y="86" width="152" height="86" rx="14" fill="url(#tile)" stroke="#23232E"/>
+    <rect x="218" y="86.5" width="116" height="1" fill="url(#sheen)"/>
+    <text x="220" y="130" class="val">1</text>
+    <text x="220" y="154" class="lbl">FOLLOWERS</text>
+  </g>
+  <g class="tile" style="animation-delay:0.43s">
+    <rect x="368" y="86" width="152" height="86" rx="14" fill="url(#tile)" stroke="#23232E"/>
+    <rect x="386" y="86.5" width="116" height="1" fill="url(#sheen)"/>
+    <text x="388" y="130" class="val" fill="#5A566E">0</text>
+    <text x="388" y="154" class="lbl">FOLLOWING</text>
+  </g>
+  <g class="tile" style="animation-delay:0.52s">
+    <rect x="536" y="86" width="152" height="86" rx="14" fill="url(#tile)" stroke="#23232E"/>
+    <rect x="554" y="86.5" width="116" height="1" fill="url(#sheen)"/>
+    <text x="556" y="130" class="val">1</text>
+    <text x="556" y="154" class="lbl">TOTAL STARS</text>
+  </g>
+
+<g class="tile" style="animation-delay:.62s">
+  <rect x="32" y="188" width="656" height="66" rx="14" fill="url(#tile)" stroke="#23232E"/>
+  <rect x="50" y="188.5" width="620" height="1" fill="url(#sheen)"/>
+  <text x="52" y="214" class="lbl">CONTRIBUTIONS &#183; LAST 12 MONTHS</text>
+  <text x="52" y="244" class="big">11</text>
+  <text x="668" y="214" class="meta" text-anchor="end">MEMBER SINCE JUL 2026</text>
+  <g>
+    <circle cx="624" cy="238" r="4.5" fill="#7C5CFF" class="dot"/>
+    <circle cx="646" cy="238" r="4.5" fill="#7C5CFF" class="dot" style="animation-delay:-.6s"/>
+    <circle cx="668" cy="238" r="4.5" fill="#7C5CFF" class="dot" style="animation-delay:-1.2s"/>
+  </g>
+</g>
+</svg>
