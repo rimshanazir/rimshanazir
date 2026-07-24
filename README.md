@@ -278,7 +278,7 @@
 
 <!-- ============================ 9 Top Languages ============================ -->
 <h2 align="center">Top Languages</h2>
-<img height="195" src="assets/top-languages.svg" alt="Top languages" />
+<p align="center"><img height="195" src="assets/top-languages.svg" alt="Top languages" /></p>
 
 
 <!-- ============================ 10 · CONNECT ============================ -->
@@ -307,16 +307,12 @@
   <img src="https://img.shields.io/github/followers/rimshanazir?style=for-the-badge&color=8B5CF6&labelColor=0D0B16&logo=github&logoColor=F8FAFC" alt="GitHub follower count." />
   <img src="https://img.shields.io/github/stars/rimshanazir?style=for-the-badge&color=F97316&labelColor=0D0B16&logo=github&logoColor=F8FAFC" alt="Total GitHub stars." />
 </div>
+<br></br>
 
 <!-- ============================ 12 · DEV QUOTE ============================ -->
-<h2 align="center">💭 &nbsp;Random Developer Quote</h2>
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=algolia&border=false" alt="A randomly selected inspirational developer quote." />
-</div>
 
 <!-- ============================ 13 · FOOTER ============================ -->
-<img src="./assets/footer-wave.svg" width="100%" alt="Animated glowing wave footer with a thank-you message." />
+<img src="./assets/footer-1.svg" width="100%" alt="Animated glowing wave footer with a thank-you message." />
 
 <div align="center">
   <sub>Designed &amp; built with 💜 by <b>Rimsha Nazir</b> · Powered by native SVG animations &amp; a unified AI design system.</sub>
