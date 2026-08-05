@@ -145,18 +145,7 @@
 
 <img src="./assets/glowing-lines.svg" width="100%" alt="" />
 
-<!-- ============================ GITHUB ANALYTICS ============================ -->
-<h2 align="center">📊 &nbsp;GitHub Analytics</h2>
 
-<div align="center">
-  <img height="180" src="https://streak-stats.demolab.com?user=rimshanazir&hide_border=true&background=0D0B16&stroke=120F1F&ring=8B5CF6&fire=F97316&currStreakNum=F8FAFC&currStreakLabel=34D399&sideNums=F8FAFC&sideLabels=9CA3AF&dates=9CA3AF" alt="Rimsha Nazir's GitHub contribution streak statistics." />
-
-  <br/><br/>
-
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=rimshanazir&hide_border=true&bg_color=0D0B16&color=F8FAFC&line=8B5CF6&point=38BDF8&area=true&area_color=8B5CF6" alt="Rimsha Nazir's GitHub contribution activity graph." />
-</div>
-
-<img src="./assets/divider.svg" width="100%" alt="" />
 
 <!-- ============================ FEATURED PROJECTS ============================ -->
 <h2 align="center">🚀 &nbsp;Featured Projects</h2>
